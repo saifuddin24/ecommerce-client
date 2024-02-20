@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn {
+  @apply flex-none
+}
+
+.btn-primary {
+  @apply bg-gray-200 hover:bg-gray-300
+}
+
+.btn-secondary {
+  @apply bg-blue-200 hover:bg-blue-300
+}
+
+.btn.btn-icon {
+  @apply rounded-full
+}
+
+.btn.btn-icon.btn-xs {
+  @apply size-6 text-xs leading-none
+}
+
+.btn.btn-icon.btn-sm {
+  @apply size-8 text-sm
+}
+
+.btn.btn-icon.btn-md {
+  @apply size-10 text-base
+}
+
+.btn.btn-icon.btn-lg {
+  @apply size-12 text-lg
+}
+
+.btn.btn-icon.btn-xl {
+  @apply size-16 text-xl
+
+}
